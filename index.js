@@ -163,9 +163,11 @@ function lecturaEventosHTTP(url_eventos) {
 
                     const evento_fila = document.createElement("td");
                     evento_fila.textContent = listado_eventos[i].darNombre;
+                    evento_fila.style.paddingLeft = "300px";
 
                     const MCC_fila = document.createElement("td");
                     MCC_fila.textContent = listado_eventos[i].darMCC;
+                    MCC_fila.style.paddingLeft = "500px";
 
                     fila_nueva.appendChild(identificador_fila);
                     fila_nueva.appendChild(evento_fila);
